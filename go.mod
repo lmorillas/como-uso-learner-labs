@@ -1,4 +1,4 @@
-module github.com/lmorillas/presentacion-aws
+module github.com/lmorillas/como-uso-learner-labs
 
 go 1.19
 

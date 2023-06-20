@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://lmorillas.github.io/como-uso-learner-labs'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Cómo uso Learner Labs en el Aula'
 
 
 theme = ["github.com/dzello/reveal-hugo"]
