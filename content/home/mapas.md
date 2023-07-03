@@ -13,8 +13,8 @@ weight = 15
 
 ```mermaid
 mindmap
-  root)Despliegue App Web(
-    Git / GitHub 
+  root[Despliegue App Web]
+    "Git / GitHub"
     ::icon(fab fa-git)
       Markdonw
       ::icon(fa-brands fa-markdown)
@@ -57,9 +57,7 @@ mindmap
           ::icon(fa fa-person-circle-plus)
           Workspaces
           Tiempo dedicado
-          id6["Consumo ($$)"]
-          
-          
+          id6["Consumo ($$)"]    
 ```
 
 {{% /section %}}

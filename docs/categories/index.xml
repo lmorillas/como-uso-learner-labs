@@ -1,1 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Cómo uso Learner Labs en el Aula</title><link>https://lmorillas.github.io/como-uso-learner-labs/categories/</link><description>Recent content in Categories on Cómo uso Learner Labs en el Aula</description><generator>Hugo -- gohugo.io</generator><language>es-es</language><atom:link href="https://lmorillas.github.io/como-uso-learner-labs/categories/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Cómo uso Learner Labs en el Aula</title>
+    <link>https://lmorillas.github.io/como-uso-learner-labs/categories/</link>
+    <description>Recent content in Categories on Cómo uso Learner Labs en el Aula</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language><atom:link href="https://lmorillas.github.io/como-uso-learner-labs/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
