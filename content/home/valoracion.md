@@ -38,6 +38,7 @@ weight = 50
 * Trabajo real en la nube con servidores en producción
 * Soporte/interacción con el estudiante
 * Servicio democratizado (navegador)
+* Independiente del puesto de trabajo
 
 ---
 ## Por hacer
