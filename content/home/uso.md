@@ -21,7 +21,7 @@ weight = 25
   * Yo en github
 
 ---
-![Panel de control](/img/panel_control.png)
+![Panel de control](img/panel_control.png)
 
 ---
 ## Seguimiento del trabajo de los estudiantes
@@ -69,5 +69,12 @@ Casi todos desde al consola, pero también se puede usar la API
 * Otros servicios continúan: S3, RDS, etc.
 * Si algo no funciona, recibe ayuda en la misma consola
 
+---
+## AWS details
+![aws details](img/awsdetails.png)
+
+---
+## AWS README
+![aws README](img/readme.png)
 {{% /section %}}
 
