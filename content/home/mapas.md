@@ -13,7 +13,7 @@ weight = 15
 
 ```mermaid
 mindmap
-  root[Despliegue App Web]
+  root[Despliegue Aps Web]
       GitHub
       ::icon(fab fa-git)
           Markdonw
@@ -30,7 +30,6 @@ mindmap
           ::icon(fa fa-circle-right)
       id3["Plataforma Elearning (moodle)"]
       ::icon(fa fa-graduation-cap)
-
 ```
 
 ---
