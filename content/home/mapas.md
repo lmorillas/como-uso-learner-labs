@@ -33,7 +33,6 @@ mindmap
     id3["Plataforma Elearning (moodle)"]
     ::icon(fa fa-graduation-cap)
 
-
 ```
 
 ---

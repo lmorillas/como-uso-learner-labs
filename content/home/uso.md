@@ -31,6 +31,17 @@ weight = 25
 * Corrección de tareas
 
 ---
+## Servicios utilizados
+* EC2
+* RDS
+* S3
+* CloudFront
+* Route53
+* ACM
+
+Casi todos desde al consola, pero también se puede usar la API
+
+---
 ## 4.2. Estudiante
 
 ---

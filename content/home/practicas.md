@@ -4,8 +4,11 @@ weight = 40
 
 
 {{% section %}}
-## ¿Qué tipo de prácticas hemos hecho?
 
+5. Ejemplo
+---
+
+## ¿Qué tipo de prácticas hemos hecho?
 
 ---
 
