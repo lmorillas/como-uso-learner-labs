@@ -1,5 +1,5 @@
-#baseURL = 'https://lmorillas.github.io/como-uso-learner-labs'
-baseURL = '/'
+baseURL = 'https://lmorillas.github.io/como-uso-learner-labs'
+#baseURL = '/'
 languageCode = 'es-es'
 title = 'Cómo uso Learner Labs en el Aula'
 
