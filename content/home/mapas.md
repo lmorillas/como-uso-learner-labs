@@ -14,7 +14,8 @@ weight = 15
 ```mermaid
 mindmap
   root[Despliegue App Web]
-    git[Git / GitHub]
+  
+    GitHub
     ::icon(fab fa-git)
       Markdonw
       ::icon(fa-brands fa-markdown)
