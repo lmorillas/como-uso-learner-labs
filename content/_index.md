@@ -24,12 +24,12 @@ background = "#FF4081"
 +++
 
 
-# {{% icon icon="fab fa-aws" %}} {{% icon icon="fab fa-github" %}} {{% icon icon="mdi mdi-access-point" %}}
-## Uso de `Learner Labs` de AWS en enseñanza a distancia
+# {{% icon icon="fa fa-chalkboard-user" %}} {{% icon icon="fab fa-github" %}} {{% icon icon="fab fa-aws" %}}
+## Cómo uso `aws` `Learner Labs` en enseñanza a distancia
 
 *Luis Miguel Morillas* / [@lmorillas](https://lmorillas.github.io/)
 
 *CPIFP Los Enlaces* / *Zaragoza*
 
-*Built with <i class="fas fa-heart" style="color:red"></i> by Relearn Hugo*
+*Built with <i class="fas fa-heart" style="color:red"></i> by Reveal Hugo*
 
