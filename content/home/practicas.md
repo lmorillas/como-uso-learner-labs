@@ -30,7 +30,8 @@ weight = 40
 
 ### Un ejemplo
 
-https://github.com/DAW-distancia/Instalacion-Koel-en-AWS
+* https://github.com/DAW-distancia/Instalacion-Koel-en-AWS
+* AWS CLI guiado con jupyter [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Fhhp1iYj961VChyKOEAEzfi6VHvUVM7D?usp=sharing)
 
 {{% /section %}}
 
