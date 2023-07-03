@@ -32,4 +32,3 @@ background = "#FF4081"
 *CPIFP Los Enlaces* / *Zaragoza*
 
 *Built with <i class="fas fa-heart" style="color:red"></i> by Reveal Hugo*
-

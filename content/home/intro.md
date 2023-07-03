@@ -5,6 +5,11 @@ weight = 10
 va por ti, *Sebas*
 
 ---
+
+![qr](img/qrcode_lmorillas.github.io.png)
+
+
+---
 ## {{% icon icon="fa fa-sitemap" %}} Guión
 1. Justificación
 1. Mapa: dónde encajan los **Learner Lab**
