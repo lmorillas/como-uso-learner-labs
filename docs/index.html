@@ -1,423 +1,47 @@
-<!doctype html>
-<html lang="en">
-  <head>
-	<meta name="generator" content="Hugo 0.116.0-DEV">
-    <meta charset="utf-8">
-<title>Uso de `Learner Labs` de AWS en enseñanza a distancia</title>
-<meta name="description" content="Cómo utilizo `Learner Labs` de AWS en enseñanza a distancia del módulo de Despliegue de Aplicaciones Web del ciclo de Desarrollo de Aplicaciones Web">
-
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><link rel="stylesheet" href="/como-uso-learner-labs/reveal-js/dist/reset.css">
-<link rel="stylesheet" href="/como-uso-learner-labs/reveal-js/dist/reveal.css">
-<link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer" /><link rel="stylesheet" href="/como-uso-learner-labs/reveal-js/dist/theme/white.css" id="theme">
-<link rel="stylesheet" href="/como-uso-learner-labs/highlight-js/default.min.css">
-  </head>
-  <body>
-    
-    <div class="reveal">
-      <div class="slides">
-  
-
-    <section><h1 id="hahahugoshortcodes0hbhb-hahahugoshortcodes1hbhb-hahahugoshortcodes2hbhb"><i class="fa fa-chalkboard-user"></i>
-
-
-
- <i class="fab fa-github"></i>
- 
- 
- 
- <i class="fab fa-aws"></i>
- 
- 
- 
-</h1>
-<h2 id="cómo-uso-aws-learner-labs-en-enseñanza-a-distancia">Cómo uso <code>aws</code> <code>Learner Labs</code> en enseñanza a distancia</h2>
-<p><em>Luis Miguel Morillas</em> / <a href="https://lmorillas.github.io/">@lmorillas</a></p>
-<p><em>CPIFP Los Enlaces</em> / <em>Zaragoza</em></p>
-<p><em>Built with <i class="fas fa-heart" style="color:red"></i> by Reveal Hugo</em></p>
-</section>
-
-  
-
-    <section><p>va por ti, <em>Sebas</em></p>
-</section><section>
-<h2 id="hahahugoshortcodes0hbhb-guión"><i class="fa fa-sitemap"></i>
-
-
-
- Guión</h2>
-<ol>
-<li>Justificación</li>
-<li>Mapa: dónde encajan los <strong>Learner Lab</strong></li>
-<li>¿Qué es un <strong>Learner Lab</strong>?</li>
-<li>Cómo los usamos
-<ul>
-<li>Profesor</li>
-<li>Estudiantes</li>
-</ul>
-</li>
-<li>Ejemplo</li>
-<li>Valoración</li>
-</ol>
-</section><section>
-
-
-<section data-shortcode-section>
-<h1 id="1-justificación">1. Justificación</h1>
-</section><section>
-<h2 id="qué-me-encuentro">Qué me encuentro</h2>
-<ul>
-<li>Poca experiencia con <strong>Linux</strong></li>
-<li>Uso de <strong>Linux</strong> con <strong>VirtualBox</strong>
-<ul>
-<li>Entorno gráfico</li>
-<li>Recursos</li>
-<li>Errores según equipos (BIOS, versiones, &hellip;)</li>
-<li>No es fácil ayudar</li>
-<li>&hellip;  y no uso windows :-(</li>
-</ul>
-</li>
-<li>Tareas: Documentos de Word con capturas</li>
-</ul>
-</section><section>
-<h2 id="i-classfa-solid-fa-bullseyei-qué-busco"><i class="fa-solid fa-bullseye"></i> ¿Qué busco?</h2>
-<ul>
-<li>Mejora de experiencia de usuario <br> (profesor y estudiantes)</li>
-<li>Uso intensivo de <strong><i class="fa-brands fa-git"></i></strong></li>
-<li>Ni un documento en <code>word</code> (<i class="fa-brands fa-markdown"></i>)</li>
-<li><strong>Democratizar</strong> despliegue</li>
-<li><strong>Ayuda fácil</strong> en despliegues</li>
-</ul>
-
-</section>
-</section>
-    <section>
-
-<section data-shortcode-section>
-<h1 id="2-mapa">2. Mapa</h1>
-</section><section>
-<h2 id="i-classfa-solid-fa-diagram-projecti-dibujo"><i class="fa-solid fa-diagram-project"></i> Dibujo</h2>
-<div class="mermaid">mindmap
-  root)Despliegue App Web(
-    Git / GitHub 
-    ::icon(fab fa-git)
-      Markdonw
-      ::icon(fa-brands fa-markdown)
-      Student pack
-      ::icon(fa fa-book)
-      Classroom
-      ::icon(fab fa-github)
-        
-    AWS Academy
-    ::icon(fab fa-aws)
-      Documentación AWS
-      Cursos Academy
-      Learner Lab)Learner Lab(
-      ::icon(fa fa-circle-right)
-      
-    id3["Plataforma Elearning (moodle)"]
-    ::icon(fa fa-graduation-cap)
-</div>
-
-</section><section>
-<div class="mermaid">mindmap
-  root[AWS Academy]
-  ::icon(fab fa-aws)
-      Documentación AWS
-      Cursos Academy
-      Learner Lab)Learner Lab(
-      ::icon(fa fa-circle-right)
-      :::urgenst red
-        Consola de AWS
-          id5["EC2 <br>(máquinas virtuales, redes, dw)"]
-          S3
-          CloudFront
-          RDS
-          Route53
-        Gestión tarea
-          Alumnos
-          ::icon(fa fa-person-circle-plus)
-          Workspaces
-          Tiempo dedicado
-          id6["Consumo ($$)"]
-          
-          
-</div>
-
-
-</section>
-</section>
-    <section>
-
-<section data-shortcode-section>
-<h1 id="3-qué-es-l-lab">3. ¿Qué es L. Lab?</h1>
-</section><section>
-<h2 id="un-learner-lab-es">Un <strong>Learner Lab</strong> es</h2>
-<p>Recurso de <strong>AWS Academy</strong> que permite a los alumnos:</p>
-<ul>
-<li>trabajar con algunos de los servicios de AWS</li>
-<li>durante un período de tiempo (bloques de 4 horas)</li>
-<li>hasta un total de 100$</li>
-<li>con la consola o con la API de AWS</li>
-</ul>
-</section><section>
-<h2 id="un-learner-lab">Un <strong>Learner Lab</strong></h2>
-<p>Permite a los profesores:</p>
-<ul>
-<li>Revisar las tareas de los alumnos
-<ul>
-<li>acceder como el estudiante a su consola de AWS</li>
-<li>ayudar, corregir, sugerir, etc.</li>
-</ul>
-</li>
-<li>Ver el tiempo que han dedicado a cada tarea</li>
-<li>Coste del lab.</li>
-</ul>
-</section><section>
-<h2 id="aws-academy">AWS Academy</h2>
-<ul>
-<li>Programa educativo de AWS que ofrece a instituciones de educación superior un plan de estudios de computación en la nube gratuito.</li>
-<li>Permite crear Learner Labs para los estudiantes (Asignar alumnos, grupos, etc.)</li>
-</ul>
-
-</section>
-</section>
-    <section>
-
-<section data-shortcode-section>
-<h1 id="4-cómo-lo-usamos">4. ¿Cómo lo usamos?</h1>
-</section><section>
-<h2 id="41-profesor">4.1. Profesor</h2>
-</section><section>
-<h2 id="crear-un-learner-lab">Crear un <strong>Learner Lab</strong></h2>
-<ul>
-<li>Crea Learner Lab desde AWS Academy
-<ul>
-<li>Tunea (nombre, color)</li>
-</ul>
-</li>
-<li>Asigna alumnos
-<ul>
-<li>AWS envía invitación a los alumnos</li>
-</ul>
-</li>
-<li>Describe la tarea
-<ul>
-<li>En las páginas del lab</li>
-<li>Yo en github</li>
-</ul>
-</li>
-</ul>
-</section><section>
-<p><img src="/img/panel_control.png" alt="Panel de control"></p>
-</section><section>
-<h2 id="seguimiento-del-trabajo-de-los-estudiantes">Seguimiento del trabajo de los estudiantes</h2>
-<ul>
-<li>Tiempo dedicado</li>
-<li>Coste</li>
-<li>Solución de problemas (puede acceder a la consola del alumno)</li>
-<li>Corrección de tareas</li>
-</ul>
-</section><section>
-<h2 id="servicios-utilizados">Servicios utilizados</h2>
-<ul>
-<li>EC2</li>
-<li>RDS</li>
-<li>S3</li>
-<li>CloudFront</li>
-<li>Route53</li>
-<li>ACM</li>
-</ul>
-<p>Casi todos desde al consola, pero también se puede usar la API</p>
-</section><section>
-<h2 id="42-estudiante">4.2. Estudiante</h2>
-</section><section>
-<h2 id="recibe-invitación">Recibe invitación</h2>
-<ul>
-<li>Acepta invitación</li>
-<li>Accede al enlace del curso</li>
-<li>O desde <a href="https://awsacademy.instructure.com/">https://awsacademy.instructure.com/</a></li>
-</ul>
-</section><section>
-<h2 id="al-acceder-al-learner-lab">Al acceder al <strong>Learner Lab</strong></h2>
-<ul>
-<li>Documentación incial (Readme)</li>
-<li>AWS Details:
-<ul>
-<li>AWS CLI Credentials</li>
-<li>Claves para SSH</li>
-</ul>
-</li>
-<li>Start Lab / End Lab</li>
-<li>$ Usado</li>
-</ul>
-</section><section>
-<h2 id="trabajo-con-learner-lab">Trabajo con <strong>Learner Lab</strong></h2>
-<ul>
-<li>Trabajo en la consola de AWS</li>
-<li>Desde cualquier equipo</li>
-<li>4 horas o hasta que para el lab</li>
-<li>Las instancias EC2 paran pero se reinician en nueva sesión</li>
-<li>Otros servicios continúan: S3, RDS, etc.</li>
-<li>Si algo no funciona, recibe ayuda en la misma consola</li>
-</ul>
-
-</section>
-</section>
-    <section>
-
-<section data-shortcode-section>
-<ol start="5">
-<li>Ejemplo</li>
-</ol>
-</section><section>
-<h2 id="qué-tipo-de-prácticas-hemos-hecho">¿Qué tipo de prácticas hemos hecho?</h2>
-</section><section>
-<h2 id="despliegue-de-sitios-estáticos-con-apache--nginx">Despliegue de sitios estáticos con apache / nginx</h2>
-<blockquote>
-<p>Recursos: EC2</p>
-</blockquote>
-</section><section>
-<h2 id="aplicaciones-web-con-php">Aplicaciones web con PHP</h2>
-<blockquote>
-<p>Recursos: EC2 + RDS</p>
-</blockquote>
-<ul>
-<li>Bookmedic</li>
-<li>Koel</li>
-<li>Typo3</li>
-</ul>
-</section><section>
-<h2 id="aplicaciones-web-con-python">Aplicaciones web con Python</h2>
-<blockquote>
-<p>Recursos: EC2 + RDS</p>
-</blockquote>
-<ul>
-<li>Api de temperaturas</li>
-<li>Flask</li>
-</ul>
-</section><section>
-<h2 id="sitios-estáticos-con-s3">Sitios estáticos con S3</h2>
-<blockquote>
-<p>Recursos: S3 + CloudFront + Route53 + ACM</p>
-</blockquote>
-<ul>
-<li>Sólo S3</li>
-<li>S3 + CloudFront + Route53 con certificado de ACM</li>
-</ul>
-
-</section>
-</section>
-
-</div>
-      
-
-    </div>
-<script type="text/javascript" src=/como-uso-learner-labs/reveal-hugo/object-assign.js></script>
-
-
-<script src="/como-uso-learner-labs/reveal-js/dist/reveal.js"></script>
-
-
-  <script type="text/javascript" src="/como-uso-learner-labs/reveal-js/plugin/markdown/markdown.js"></script>
-  
-  <script type="text/javascript" src="/como-uso-learner-labs/reveal-js/plugin/highlight/highlight.js"></script>
-  
-  <script type="text/javascript" src="/como-uso-learner-labs/reveal-js/plugin/zoom/zoom.js"></script>
-  
-  <script type="text/javascript" src="/como-uso-learner-labs/reveal-js/plugin/notes/notes.js"></script>
-  
-<script type="text/javascript">
-  
-  
-  function camelize(map) {
-    if (map) {
-      Object.keys(map).forEach(function(k) {
-        newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
-        if (newK != k) {
-          map[newK] = map[k];
-          delete map[k];
-        }
-      });
-    }
-    return map;
-  }
-
-  var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
-  var revealHugoSiteParams = {"theme":"white"};
-  var revealHugoPageParams = {"templates":{"hotpinkx":{"background":"#FF4081","class":"hotpink"}}};
-
-  var revealHugoPlugins = {
-    
-    plugins: [RevealMarkdown,RevealHighlight,RevealZoom,RevealNotes]
-  };
-
-  
-  var options = Object.assign({},
-    camelize(revealHugoDefaults),
-    camelize(revealHugoSiteParams),
-    camelize(revealHugoPageParams),
-    camelize(revealHugoPlugins));
-
-  Reveal.initialize(options);
-</script>
-
-
-
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-
-  
-  <script type="text/javascript" src="/como-uso-learner-labs/mermaid.min_6838052300336322795.js"></script>
-  <script type="text/javascript">
-    mermaid.initialize({startOnLoad: false});
-    let render = (event) => {
-      let mermaidElems = event.currentSlide.querySelectorAll('.mermaid');
-      if (!mermaidElems.length){
-          return
-      }
-      mermaidElems.forEach(mermaidElem => {
-          let processed = mermaidElem.getAttribute('data-processed');
-          if (!processed){
-              
-              mermaid.init(undefined, mermaidElem);
-          }
-      });
-    };
-    
-    render({currentSlide: Reveal.getCurrentSlide()});
-
-    Reveal.on('slidechanged', render);
-    Reveal.on('ready', render);
-  </script>
-
-    
-    
-  </body>
-</html>
+<!doctype html><html lang=en><head><meta name=generator content="Hugo 0.116.0-DEV"><meta charset=utf-8><title>Uso de `Learner Labs` de AWS en enseñanza a distancia</title><meta name=description content="Cómo utilizo `Learner Labs` de AWS en enseñanza a distancia del módulo de Despliegue de Aplicaciones Web del ciclo de Desarrollo de Aplicaciones Web"><meta name=apple-mobile-web-app-capable content="yes"><meta name=apple-mobile-web-app-status-bar-style content="black-translucent"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><link rel=stylesheet href=/como-uso-learner-labs/reveal-js/dist/reset.css><link rel=stylesheet href=/como-uso-learner-labs/reveal-js/dist/reveal.css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin=anonymous referrerpolicy=no-referrer><link rel=stylesheet href=/como-uso-learner-labs/reveal-js/dist/theme/white.css id=theme><link rel=stylesheet href=/como-uso-learner-labs/highlight-js/default.min.css></head><body><div class=reveal><div class=slides><section><h1 id=hahahugoshortcodes0hbhb-hahahugoshortcodes1hbhb-hahahugoshortcodes2hbhb><i class="fa fa-chalkboard-user"></i>
+<i class="fab fa-github"></i>
+<i class="fab fa-aws"></i></h1><h2 id=cómo-uso-aws-learner-labs-en-enseñanza-a-distancia>Cómo uso <code>aws</code> <code>Learner Labs</code> en enseñanza a distancia</h2><p><em>Luis Miguel Morillas</em> / <a href=https://lmorillas.github.io/>@lmorillas</a></p><p><em>CPIFP Los Enlaces</em> / <em>Zaragoza</em></p><p><em>Built with <i class="fas fa-heart" style=color:red></i> by Reveal Hugo</em></p></section><section><p>va por ti, <em>Sebas</em></p></section><section><h2 id=hahahugoshortcodes0hbhb-guión><i class="fa fa-sitemap"></i>
+Guión</h2><ol><li>Justificación</li><li>Mapa: dónde encajan los <strong>Learner Lab</strong></li><li>¿Qué es un <strong>Learner Lab</strong>?</li><li>Cómo los usamos<ul><li>Profesor</li><li>Estudiantes</li></ul></li><li>Ejemplo</li><li>Valoración</li></ol></section><section><section data-shortcode-section><h1 id=1-justificación>1. Justificación</h1></section><section><h2 id=qué-me-encuentro>Qué me encuentro</h2><ul><li>Poca experiencia con <strong>Linux</strong></li><li>Uso de <strong>Linux</strong> con <strong>VirtualBox</strong><ul><li>Entorno gráfico</li><li>Recursos</li><li>Errores según equipos (BIOS, versiones, &mldr;)</li><li>No es fácil ayudar</li><li>&mldr; y no uso windows :-(</li></ul></li><li>Tareas: Documentos de Word con capturas</li></ul></section><section><h2 id=i-classfa-solid-fa-bullseyei-qué-busco><i class="fa-solid fa-bullseye"></i> ¿Qué busco?</h2><ul><li>Mejora de experiencia de usuario<br>(profesor y estudiantes)</li><li>Uso intensivo de <strong><i class="fa-brands fa-git"></i></strong></li><li>Ni un documento en <code>word</code> (<i class="fa-brands fa-markdown"></i>)</li><li><strong>Democratizar</strong> despliegue</li><li><strong>Ayuda fácil</strong> en despliegues</li></ul></section></section><section><section data-shortcode-section><h1 id=2-mapa>2. Mapa</h1></section><section><h2 id=i-classfa-solid-fa-diagram-projecti-dibujo><i class="fa-solid fa-diagram-project"></i> Dibujo</h2><div class=mermaid>mindmap
+root)Despliegue App Web(
+Git / GitHub
+::icon(fab fa-git)
+Markdonw
+::icon(fa-brands fa-markdown)
+Student pack
+::icon(fa fa-book)
+Classroom
+::icon(fab fa-github)
+AWS Academy
+::icon(fab fa-aws)
+Documentación AWS
+Cursos Academy
+Learner Lab)Learner Lab(
+::icon(fa fa-circle-right)
+id3["Plataforma Elearning (moodle)"]
+::icon(fa fa-graduation-cap)</div></section><section><div class=mermaid>mindmap
+root[AWS Academy]
+::icon(fab fa-aws)
+Documentación AWS
+Cursos Academy
+Learner Lab)Learner Lab(
+::icon(fa fa-circle-right)
+:::urgenst red
+Consola de AWS
+id5["EC2<br>(máquinas virtuales, redes, dw)"]
+S3
+CloudFront
+RDS
+Route53
+Gestión tarea
+Alumnos
+::icon(fa fa-person-circle-plus)
+Workspaces
+Tiempo dedicado
+id6["Consumo ($$)"]</div></section></section><section><section data-shortcode-section><h1 id=3-qué-es-l-lab>3. ¿Qué es L. Lab?</h1></section><section><h2 id=un-learner-lab-es>Un <strong>Learner Lab</strong> es</h2><p>Recurso de <strong>AWS Academy</strong> que permite a los alumnos:</p><ul><li>trabajar con algunos de los servicios de AWS</li><li>durante un período de tiempo (bloques de 4 horas)</li><li>hasta un total de 100$</li><li>con la consola o con la API de AWS</li></ul></section><section><h2 id=un-learner-lab>Un <strong>Learner Lab</strong></h2><p>Permite a los profesores:</p><ul><li>Revisar las tareas de los alumnos<ul><li>acceder como el estudiante a su consola de AWS</li><li>ayudar, corregir, sugerir, etc.</li></ul></li><li>Ver el tiempo que han dedicado a cada tarea</li><li>Coste del lab.</li></ul></section><section><h2 id=aws-academy>AWS Academy</h2><ul><li>Programa educativo de AWS que ofrece a instituciones de educación superior un plan de estudios de computación en la nube gratuito.</li><li>Permite crear Learner Labs para los estudiantes (Asignar alumnos, grupos, etc.)</li></ul></section></section><section><section data-shortcode-section><h1 id=4-cómo-lo-usamos>4. ¿Cómo lo usamos?</h1></section><section><h2 id=41-profesor>4.1. Profesor</h2></section><section><h2 id=crear-un-learner-lab>Crear un <strong>Learner Lab</strong></h2><ul><li>Crea Learner Lab desde AWS Academy<ul><li>Tunea (nombre, color)</li></ul></li><li>Asigna alumnos<ul><li>AWS envía invitación a los alumnos</li></ul></li><li>Describe la tarea<ul><li>En las páginas del lab</li><li>Yo en github</li></ul></li></ul></section><section><p><img src=/img/panel_control.png alt="Panel de control"></p></section><section><h2 id=seguimiento-del-trabajo-de-los-estudiantes>Seguimiento del trabajo de los estudiantes</h2><ul><li>Tiempo dedicado</li><li>Coste</li><li>Solución de problemas (puede acceder a la consola del alumno)</li><li>Corrección de tareas</li></ul></section><section><h2 id=servicios-utilizados>Servicios utilizados</h2><ul><li>EC2</li><li>RDS</li><li>S3</li><li>CloudFront</li><li>Route53</li><li>ACM</li></ul><p>Casi todos desde al consola, pero también se puede usar la API</p></section><section><h2 id=42-estudiante>4.2. Estudiante</h2></section><section><h2 id=recibe-invitación>Recibe invitación</h2><ul><li>Acepta invitación</li><li>Accede al enlace del curso</li><li>O desde <a href=https://awsacademy.instructure.com/>https://awsacademy.instructure.com/</a></li></ul></section><section><h2 id=al-acceder-al-learner-lab>Al acceder al <strong>Learner Lab</strong></h2><ul><li>Documentación incial (Readme)</li><li>AWS Details:<ul><li>AWS CLI Credentials</li><li>Claves para SSH</li></ul></li><li>Start Lab / End Lab</li><li>$ Usado</li></ul></section><section><h2 id=trabajo-con-learner-lab>Trabajo con <strong>Learner Lab</strong></h2><ul><li>Trabajo en la consola de AWS</li><li>Desde cualquier equipo</li><li>4 horas o hasta que para el lab</li><li>Las instancias EC2 paran pero se reinician en nueva sesión</li><li>Otros servicios continúan: S3, RDS, etc.</li><li>Si algo no funciona, recibe ayuda en la misma consola</li></ul></section></section><section><section data-shortcode-section><ol start=5><li>Ejemplo</li></ol></section><section><h2 id=qué-tipo-de-prácticas-hemos-hecho>¿Qué tipo de prácticas hemos hecho?</h2></section><section><h2 id=despliegue-de-sitios-estáticos-con-apache--nginx>Despliegue de sitios estáticos con apache / nginx</h2><blockquote><p>Recursos: EC2</p></blockquote></section><section><h2 id=aplicaciones-web-con-php>Aplicaciones web con PHP</h2><blockquote><p>Recursos: EC2 + RDS</p></blockquote><ul><li>Bookmedic</li><li>Koel</li><li>Typo3</li></ul></section><section><h2 id=aplicaciones-web-con-python>Aplicaciones web con Python</h2><blockquote><p>Recursos: EC2 + RDS</p></blockquote><ul><li>Api de temperaturas</li><li>Flask</li></ul></section><section><h2 id=sitios-estáticos-con-s3>Sitios estáticos con S3</h2><blockquote><p>Recursos: S3 + CloudFront + Route53 + ACM</p></blockquote><ul><li>Sólo S3</li><li>S3 + CloudFront + Route53 con certificado de ACM</li></ul></section></section></div></div><script type=text/javascript src=/como-uso-learner-labs/reveal-hugo/object-assign.js></script>
+<script src=/como-uso-learner-labs/reveal-js/dist/reveal.js></script>
+<script type=text/javascript src=/como-uso-learner-labs/reveal-js/plugin/markdown/markdown.js></script>
+<script type=text/javascript src=/como-uso-learner-labs/reveal-js/plugin/highlight/highlight.js></script>
+<script type=text/javascript src=/como-uso-learner-labs/reveal-js/plugin/zoom/zoom.js></script>
+<script type=text/javascript src=/como-uso-learner-labs/reveal-js/plugin/notes/notes.js></script>
+<script type=text/javascript>function camelize(e){return e&&Object.keys(e).forEach(function(t){newK=t.replace(/(_\w)/g,function(e){return e[1].toUpperCase()}),newK!=t&&(e[newK]=e[t],delete e[t])}),e}var revealHugoDefaults={center:!0,controls:!0,history:!0,progress:!0,transition:"slide"},revealHugoSiteParams={theme:"white"},revealHugoPageParams={templates:{hotpinkx:{background:"#FF4081",class:"hotpink"}}},revealHugoPlugins={plugins:[RevealMarkdown,RevealHighlight,RevealZoom,RevealNotes]},options=Object.assign({},camelize(revealHugoDefaults),camelize(revealHugoSiteParams),camelize(revealHugoPageParams),camelize(revealHugoPlugins));Reveal.initialize(options)</script><script type=text/javascript src=/como-uso-learner-labs/mermaid.min_6838052300336322795.js></script>
+<script type=text/javascript>mermaid.initialize({startOnLoad:!1});let render=e=>{let t=e.currentSlide.querySelectorAll(".mermaid");if(!t.length)return;t.forEach(e=>{let t=e.getAttribute("data-processed");t||mermaid.init(void 0,e)})};render({currentSlide:Reveal.getCurrentSlide()}),Reveal.on("slidechanged",render),Reveal.on("ready",render)</script></body></html>
