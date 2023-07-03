@@ -2,7 +2,6 @@ baseURL = 'https://lmorillas.github.io/como-uso-learner-labs'
 #baseURL = '/'
 languageCode = 'es-es'
 title = 'Cómo uso Learner Labs en el Aula'
-publishDir = 'docs'
 
 theme = ["github.com/dzello/reveal-hugo"]
 
