@@ -13,7 +13,7 @@ weight = 15
 
 ```mermaid
 mindmap
-  root)**Despliegue App Web**(
+  root)Despliegue App Web(
     Git / GitHub 
     ::icon(fab fa-git)
       Markdonw
@@ -27,7 +27,7 @@ mindmap
     ::icon(fab fa-aws)
       Documentación AWS
       Cursos Academy
-      Learner Lab)**Learner Lab**(
+      Learner Lab)Learner Lab(
       ::icon(fa fa-circle-right)
       
     id3["Plataforma Elearning (moodle)"]
@@ -43,7 +43,7 @@ mindmap
   ::icon(fab fa-aws)
       Documentación AWS
       Cursos Academy
-      Learner Lab)**Learner Lab**(
+      Learner Lab)Learner Lab(
       ::icon(fa fa-circle-right)
       :::urgent red
         Consola de AWS
