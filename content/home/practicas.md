@@ -8,16 +8,29 @@ weight = 40
 # 5. Ejemplo
 ---
 
-## ¿Qué tipo de prácticas hemos hecho?
+### Prácticas que hemos hecho 1/2
 
 * Despliegue de sitios estáticos con apache / nginx: EC2
+* Aplicaciones web con PHP
+  * EC2 (servidor web, servidor de BBDD en EC2)
+  * EC2 + RDS
+* Creación de subdominios con Route53 (name.com)
+* Aplicaciones web con Python: EC2 + RDS + S3 + Certificados con Certbot
 
-* Aplicaciones web con PHP: EC2 + RDS
 
-* Aplicaciones web con Python: EC2 + RDS . Certificados con Certbot
+---
 
-* Sitios estáticos con S3: Recursos: S3 + CloudFront + Route53 + ACM
+### Prácticas que hemos hecho 2/2
 
+* Sitios estáticos con S3: Recursos: S3 + CDN (CloudFront) + Route53 + ACM (Certificados)
+* Despliegue de contenedores: EC2 + Docker
+* AWS Lambda
+
+---
+
+### Un ejemplo
+
+https://github.com/DAW-distancia/Instalacion-Koel-en-AWS
 
 {{% /section %}}
 

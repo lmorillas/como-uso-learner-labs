@@ -25,6 +25,7 @@ weight = 50
 * No IAM
 * 100$
 * 4 horas
+* Laboratorios sin conexión
 
 ---
 ### Pero 
@@ -42,6 +43,8 @@ weight = 50
 ## Por hacer
 * Mejor integración en Moodle
 * Autotest en los labs/repositorios
+  * Feedback para estudiantes
+  * y profesores
 
 
 {{% /section %}}

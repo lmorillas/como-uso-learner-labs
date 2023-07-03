@@ -34,7 +34,7 @@ Permite a los profesores:
 
 * Programa educativo de AWS que ofrece a instituciones de educación superior un plan de estudios de computación en la nube gratuito.
 * Permite crear Learner Labs para los estudiantes (Asignar alumnos, grupos, etc.)
-
+* Acceso https://awsacademy.instructure.com/ como student o teacher
 
 {{% /section %}}
 
