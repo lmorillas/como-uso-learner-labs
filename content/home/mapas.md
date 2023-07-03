@@ -35,31 +35,4 @@ mindmap
 
 ```
 
----
-
-```mermaid
-mindmap
-  root[AWS Academy]
-  ::icon(fab fa-aws)
-      Documentación AWS
-      Cursos Academy
-      Learner Lab)Learner Lab(
-      ::icon(fa fa-circle-right)
-      :::urgent red
-        Consola de AWS
-          id5["EC2 <br>(máquinas virtuales, redes, dw)"]
-          S3
-          CloudFront
-          RDS
-          Route53
-        Gestión tarea
-          Alumnos
-          ::icon(fa fa-person-circle-plus)
-          Workspaces
-          Tiempo dedicado
-          id6["Consumo ($$)"]
-          
-          
-```
-
 {{% /section %}}
