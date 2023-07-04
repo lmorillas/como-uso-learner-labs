@@ -1,5 +1,8 @@
 +++
 weight = 15
+
+# Revisar mapas. mermaid genera un error. Se dejan en rama mindmap
+
 +++
 
 
