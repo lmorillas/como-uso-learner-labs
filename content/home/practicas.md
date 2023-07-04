@@ -34,5 +34,6 @@ weight = 40
 * AWS CLI guiado con jupyter [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Fhhp1iYj961VChyKOEAEzfi6VHvUVM7D?usp=sharing)
 * Boto3 & aws cli [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1z7LMsGrLQJa-U3qM96z2LgSwUCj2XC8K?usp=sharing)
 * https://awsacademy.instructure.com/courses/50947/
+* Proyecto de alumnos en EC2: http://52.54.249.181/
 {{% /section %}}
 

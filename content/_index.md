@@ -3,7 +3,7 @@ title = "Uso de `Learner Labs` de AWS en enseñanza a distancia"
 description = "Cómo utilizo `Learner Labs` de AWS en enseñanza a distancia del módulo de Despliegue de Aplicaciones Web del ciclo de Desarrollo de Aplicaciones Web"
 
 outputs = ["Reveal"]
-[logoxx]
+[logoxx]  # por ahora no
 src = "/img/awsacademy.png" # Location of the file displayed.
 alt = "" # Alt text. 
 width = "15%" # Size of the file.
